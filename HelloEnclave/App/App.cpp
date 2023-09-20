@@ -237,7 +237,7 @@ int SGX_CDECL main(int argc, char *argv[])
 
     /* Initialize the enclave */
     if(initialize_enclave() < 0){
-        printf("Enter a character before exit ...\n");
+        printf("Hector Enter a character before exit ...\n");
         getchar();
         return -1; 
     }
